@@ -21,7 +21,7 @@ public class Treeset {
 	    Iterator<String> i = tre.iterator();
         while(i.hasNext())
         {
-        	l.info((String) i.next());
+        	l.info(i.next());
         }
 	    
 	}
