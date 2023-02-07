@@ -7,8 +7,8 @@ public class Treeset {
   
 	public static void main(String[] args)
 	{
-		Logger l= Logger.getLogger("com.api.jar");
-		TreeSet<String> tre = new TreeSet<String>();
+		
+	    TreeSet<String> tre = new TreeSet<String>();
 	    tre.add("10");
 	    tre.add("Arun");
 	    tre.add("prabu");
