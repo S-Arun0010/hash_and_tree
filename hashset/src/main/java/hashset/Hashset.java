@@ -43,7 +43,8 @@ public class Hashset {
         hs.add(b);
         hs.add(c);
         hs.add(d);
-        Iterator i = hs.iterator();
+	hs.add(f);
+        Iterator<Hashset> i = hs.iterator();
         while(i.hasNext())
         {
         	 l.info(i.next());
